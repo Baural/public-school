@@ -35,8 +35,8 @@ $palette: (
 $color: (
 	heading:				get-color(dark, 1),
 	base: 					get-color(dark, 2),
-	high-contrast: 			get-color(dark, 1),
-	mid-contrast: 			get-color(dark, 2),
+	high-contrast: 			get-color(light, 1),
+	mid-contrast: 			get-color(light, 2),
 	low-contrast: 			get-color(light, 3),
 	primary:				get-color(primary, 3),
 	secondary:				get-color(secondary, 1),
@@ -44,10 +44,10 @@ $color: (
 	warning:				get-color(alert, warning),
 	success:				get-color(alert, success),
 	// ↓ Inverted colors
-	heading-inverse:		get-color(dark, 1),
+	heading-inverse:		get-color(light, 1),
 	base-inverse:			get-color(light, 3),
-	high-contrast-inverse: 	get-color(dark, 1),
-	mid-contrast-inverse: 	get-color(dark, 2),
+	high-contrast-inverse: 	get-color(light, 1),
+	mid-contrast-inverse: 	get-color(light, 2),
 	low-contrast-inverse: 	get-color(light, 3)
 );
 

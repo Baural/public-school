@@ -1,8 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
-// import Logo from './partials/Logo';
+
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -112,7 +111,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>+77010123579</Link>
+                    <a href="tel:+77010123579">+77010123579</a>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +119,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                      <Link to="#0" onClick={closeMenu}>studio56@gmail.com</Link>
+                      <a href="mailto:studio56@gmail.com">studio56@gmail.com</a>
                     </li>
                     </ul>}
                 </div>

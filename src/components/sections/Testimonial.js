@@ -44,8 +44,7 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Требование к Студентам',
-    paragraph: 'Возрастных ограничений нет(20+, 30+ и так далее лет). Курс ориентрован студентов и специалистов решивших перейти в IT. Требуются уверененные знания школьного курса. Предварительно будет выслано тестовое задание для понимания уровня владения техническими навыками'
+    title: 'Правила зачисления:'
   };
 
   return (
@@ -56,51 +55,12 @@ const Testimonial = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
+          <p className="mt-0 mb-12">-  наличие персонального компьютера (продвинутый пользователь Microsoft Office)</p>
+          <p className="mt-0 mb-12">-  уверененные знания школьного курса (чего? математика?)</p>
+          <p className="mt-0 mb-12">-  нет возрастных ограничений от 18 и старше </p>
+          <p className="mt-0 mb-12">- предварительное тестирование для определения технических навыков </p>
+          <p className="mt-0 mb-12">- нет стеснению,если не до конца понял материал, всегда лучше переспросить </p>
           <div className={tilesClasses}>
-
-            {/* <div className="tiles-item reveal-from-right" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div>
-                  <p className="text-color-primary">
-                    2022</p>
-                </div>
-              
-              </div>
-            </div> */}
-
-            {/* <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
-                </div>
-              </div>
-            </div> */}
-
-            {/* <div className="tiles-item reveal-from-left" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
-                </div>
-              </div>
-            </div> */}
 
           </div>
         </div>

@@ -50,8 +50,7 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Обучение',
-    paragraph: 'Маршрут обучения выстроен, так чтоб человек мог с самых азов постепено на практике прийти к пониманию специфики бек-разработки. Контент разбит на три модуля с постепенным расширением инструментов и технологий'
+    title: 'Обучение'
   };
 
   return (
@@ -62,6 +61,10 @@ const FeaturesSplit = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
+          <p className="center-content">- начинаем от самых азов до понимания  на практике специфики backend разработки в целом,</p>
+          <p className="center-content">- обучение разбито на 3 модуля с постепенным введением новых  инструментов и технологий,</p>
+          <p className="center-content">- используем режим качественной проработки всего учебного и практического материала</p>
+  
           <div className={splitClasses}>
 
             <div className="split-item">

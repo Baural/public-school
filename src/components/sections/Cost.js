@@ -44,7 +44,7 @@ const Cost = ({
   );
 
   const sectionHeader = {
-    title: 'Стоимость 420 000 тенге'
+    title: 'Стоимость 380 000 тенге'
   };
 
   return (

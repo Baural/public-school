@@ -43,7 +43,7 @@ const Header = ({
       document.removeEventListener('click', clickOutside);
       closeMenu();
     };
-  });  
+  });
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
@@ -65,7 +65,7 @@ const Header = ({
     if (!nav.current) return
     if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
     closeMenu();
-  }  
+  }
 
   const classes = classNames(
     'site-header',
@@ -97,34 +97,34 @@ const Header = ({
                   <span className="hamburger-inner"></span>
                 </span>
               </button> */}
-              <nav
-                ref={nav}
-                className={
-                  classNames(
-                    'header-nav',
-                    isActive && 'is-active'
-                  )}>
-                <div className="header-nav-inner">
-                  <ul className={
-                    classNames(
-                      'list-reset text-xs',
-                      navPosition && `header-nav-${navPosition}`
-                    )}>
-                    <li>
-                    <a href="tel:+77010123579">+77010123579</a>
-                    </li>
-                  </ul>
-                  {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-                      <li>
-                      <a href="mailto:studio56@gmail.com">studio56@gmail.com</a>
-                    </li>
-                    </ul>}
-                </div>
-              </nav>
-            {/* </>} */}
+          <nav
+            ref={nav}
+            className={
+              classNames(
+                'header-nav',
+                isActive && 'is-active'
+              )}>
+            <div className="header-nav-inner">
+              <ul className={
+                classNames(
+                  'list-reset text-xs',
+                  navPosition && `header-nav-${navPosition}`
+                )}>
+                <li>
+                  <a href="tel:+77010123579">+77010123579</a>
+                </li>
+              </ul>
+              {!hideSignin &&
+                <ul
+                  className="list-reset header-nav-right"
+                >
+                  <li>
+                    <a href="mailto:info@studio56.school">info@studio56.school</a>
+                  </li>
+                </ul>}
+            </div>
+          </nav>
+          {/* </>} */}
         </div>
       </div>
     </header>

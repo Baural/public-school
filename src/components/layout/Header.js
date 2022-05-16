@@ -119,7 +119,7 @@ const Header = ({
                   className="list-reset header-nav-right"
                 >
                   <li>
-                    <a href="mailto:info@studio56.school">info@studio56.school</a>
+                    <a href="mailto:studio56school@gmail.com">studio56school@gmail.com</a>
                   </li>
                 </ul>}
             </div>

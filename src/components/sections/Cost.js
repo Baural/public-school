@@ -44,7 +44,7 @@ const Cost = ({
   );
 
   const sectionHeader = {
-    title: 'Стоимость 380 000 тенге'
+    title: 'Стоимость 130 000 тенге за модуль'
   };
 
   return (
